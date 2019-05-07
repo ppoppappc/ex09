@@ -1,10 +1,17 @@
 package tku.cs2c.ex09;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
+import android.widget.AbsoluteLayout;
 import android.widget.Button;
 import android.content.Intent;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 
 public class EX09 extends AppCompatActivity {
@@ -24,4 +31,14 @@ public class EX09 extends AppCompatActivity {
             }
         });
     }
+
+    public void changeColor(View v){
+        TextView tx1 = (TextView)findViewById(R.id.text1);
+        AbsoluteLayout mLayout = (AbsoluteLayout) findViewById(R.id.layout);
+
+        tx1.setTextColor(Color.rgb(0,255,255));
+        mLayout.setBackgroundColor(Color.rgb(255,0,0));
+    }
 }
+
+

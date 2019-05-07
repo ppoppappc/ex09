@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tku.cs2c.ex09">
+    package="tku.cs2c.ex09"
+    >
 
     <application
         android:allowBackup="true"
